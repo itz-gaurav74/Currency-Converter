@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Currency Converter</h2>
+      <form action="#">
+        <!-- Amount Section -->
+        <div class="amount">
+          <h4>Enter Amount</h4>
+          <input type="text" placeholder="Enter Exchange Amount" />
+        </div>
+        <!-- Selection Boxes -->
+        <div class="selection">
+          <!-- From Section -->
+          <div class="from">
+            <h4>From</h4>
+            <div class="data-box">
+              <img src="https://flagsapi.com/US/flat/64.png" alt="US" />
+              <select name="from" id=""></select>
+            </div>
+          </div>
+          <!-- Exchange Icon -->
+          <div class="exchange-icon">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          </div>
+          <!-- To Section -->
+          <div class="to">
+            <h4>To</h4>
+            <div class="data-box">
+              <img src="https://flagsapi.com/IN/flat/64.png" alt="US" />
+              <select name="to" id=""></select>
+            </div>
+          </div>
+        </div>
+        <!-- Output Window -->
+        <h3 class="output">Exchange Rate</h3>
+        <button>Exchange Amount</button>
+      </form>
+    </div>
+
+    <script src="countryList.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Anta", sans-serif;
+    background-image: linear-gradient(to left top, #de9dc2, #cf9ec9, #c0a0cd, #b0a2ce, #a1a3cd, #97aad6, #8bb1dc, #7eb8e0, #67c8ed, #4bd8f3, #31e7f2, #33f5e9);
+}
+
+.container {
+    width: 350px;
+    border: 1px solid black;
+    padding: 23px;
+    backdrop-filter: blur(7px) saturate(144%);
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 3lvh 0;
+}
+
+form :where(input, select, button) {
+    width: 100%;
+    font-size: 2lvh;
+    border: none;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+form input {
+    border: 1px solid gray;
+    height: 5lvh;
+    border-radius: 7px;
+    margin: 2lvh 0;
+    padding: 0 2lvh;
+    outline: none;
+    background: transparent;
+    /* background-image: linear-gradient(to left, #9a9da0, #abacaf, #bbbcbe, #cccccd, #dcdcdc); */
+}
+
+form .amount h4 {
+    font-size: 17px;
+}
+
+form .selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selection .data-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2lvh 0;
+    padding: 1lvh;
+}
+
+form select,
+form select option {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px 0 0 0;
+    font-family: "Crimson Text", serif;
+}
+
+.data-box select::-webkit-scrollbar {
+    width: 4px;
+}
+
+.data-box select::-webkit-scrollbar-thumb {
+    background: #495353;
+    border-radius: 7px;
+    border-right: 2px solid #e5dede;
+}
+
+.data-box img {
+    height: 24px;
+    padding: 0 1lvh 0 0;
+}
+
+.container .output {
+    margin: 2lvh 0;
+    font-size: 17px;
+}
+
+.container button {
+    height: 5lvh;
+    font-size: 2lvh;
+    border-radius: 1.2lvh;
+    background: rgb(90 207 201 / 75%);
+    color: black;
+    letter-spacing: 1.1px;
+    width: 75%;
+    margin: 0 15%;
+    background-image: linear-gradient(to right, #6ed5f1, #59badf, #499fcc, #3e85b7, #386ba0);
+    box-shadow: 0px 0px 125px 21px rgba(73, 158, 204, 0.34);
+
+}
+
+
+.container button:hover {
+    cursor: pointer;
+    background: #386ba0;
+}
