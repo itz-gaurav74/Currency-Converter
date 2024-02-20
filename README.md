@@ -31,6 +31,9 @@ This is a simple currency converter web application that allows users to convert
 
 2. Open the index.html file in your web browser.
 
+## Output
+   <a href='https://itz-gaurav74.github.io/Currency-Converter'>Try Live</a>
+    
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
